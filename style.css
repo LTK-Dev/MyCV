@@ -14,7 +14,10 @@ body{
    column-gap: 5%; 
    row-gap: 30px;
 }
-
+.text{
+    text-decoration: none;
+    color : black;
+}
 .avatar img{
     width:300px;
     height:300px;
