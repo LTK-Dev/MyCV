@@ -1,9 +1,6 @@
 body{
     background-color: #D5D5D5;
     font-family: system-ui;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .container{
     background-color: #E9E7EA;
@@ -13,22 +10,19 @@ body{
     padding:50px;
     box-shadow: 0 10px 50px #858585;
     display: grid;
-   grid-template-columns: 35% 60%;
-   column-gap: 5%; 
-   row-gap: 30px;
-    position:relative;
+    grid-template-columns: 35% 60%;
+    column-gap: 5%; 
+    row-gap: 30px;
 }
 .text{
     text-decoration: none;
     color : black;
 }
-.avatar img{
+avatar img{
     width:200px;
     height:200px;
     object-fit: cover;
     border-radius: 50%;
-    max-width: 100%;
-    max-height: 100%;
 }
 .avatar{
     display: flex;
