@@ -18,7 +18,7 @@ body{
     text-decoration: none;
     color : black;
 }
-avatar img{
+.avatar img{
     width:200px;
     height:200px;
     object-fit: cover;
